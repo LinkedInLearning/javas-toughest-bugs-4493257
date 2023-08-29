@@ -3,6 +3,8 @@ import java.util.Optional;
 public class Main {
   public static void main(String[] args) {
     User user = new User("Kathryn");
+    Address userAddress = new Address("New York City");
+    user.setAddress(userAddress);
 
     user.getAddress().ifPresent(address -> {
       System.out.println("City: " + address.getCity());
@@ -16,6 +18,7 @@ class User {
 
   public User(String name) {
     this.name = name;
+    this.address = Optional.empty();
   }
 
   public Optional<Address> getAddress() {
