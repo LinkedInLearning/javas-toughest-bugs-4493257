@@ -2,7 +2,8 @@ public class Main {
   public static void main(String[] args) {
     User user = new User("Kathryn");
 
-    String city = user.getAddress().getCity(); // Potential Null Pointer Exception!
+    // Potential Null Pointer Exception!
+    String city = user.getAddress().getCity();
     System.out.println("City: " + city);
   }
 }
