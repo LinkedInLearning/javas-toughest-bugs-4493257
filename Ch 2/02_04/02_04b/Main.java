@@ -1,14 +1,10 @@
 public class Main {
   public static void main(String[] args) {
-    Address address = new Address("New York City");
-    User user = new User("Kathryn", null);
-    user.setAddress(address);
+    User user = new User("Kathryn");
 
     // Potential Null Pointer Exception!
-    if (user.getAddress() != null) {
-      String city = user.getAddress().getCity();
-      System.out.println("City: " + city);
-    }
+    String city = user.getAddress().getCity();
+    System.out.println("City: " + city);
   }
 }
 
@@ -16,9 +12,8 @@ class User {
   private String name;
   private Address address;
 
-  public User(String name, Address address) {
+  public User(String name) {
     this.name = name;
-    this.address = address;
   }
 
   public Address getAddress() {
