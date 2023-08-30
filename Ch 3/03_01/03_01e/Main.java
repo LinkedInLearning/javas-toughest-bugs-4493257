@@ -15,7 +15,7 @@ public class Main {
 }
 
 abstract class PaymentMethod {
-  private static double transactionFee = 0.0; // Incorrect use of static variable
+  private static double transactionFee = 0.0;
 
   public PaymentMethod() {
   }
