@@ -9,6 +9,20 @@
       "name": "Application",
       "request": "launch",
       "mainClass": "com.example.my_app.Application",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "Application",
+      "projectName": "javas-toughest-bugs-4493257_5cd2dc70"
+    },
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "com.example.my_app.Application",
       "projectName": "my_app"
     },
     {
