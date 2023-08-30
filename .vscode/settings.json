@@ -22,9 +22,5 @@
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
   "java.compile.nullAnalysis.mode": "automatic",
-  "java.project.sourcePaths": [
-    "javas-toughest-bugs-4493257_5cd2dc70/Ch 4/04_01/04_01b/my_app/src/main/java/com/example/my_app",
-    "javas-toughest-bugs-4493257_5cd2dc70/Ch 4/04_01/04_01e/my_app/src/main/java/com/example/my_app",
-    "javas-toughest-bugs-4493257_5cd2dc70/Ch 4/04_02/04_02b/my_app/src/main/java/com/chfour_videotwo_beginning/my_app"
-  ]
+  "java.debug.settings.onBuildFailureProceed": true
 }

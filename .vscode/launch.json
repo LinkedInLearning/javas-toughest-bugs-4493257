@@ -6,39 +6,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Application",
-      "request": "launch",
-      "mainClass": "com.chfour_videotwo_beginning.myapp.Application",
-      "projectName": ""
-    },
-    {
-      "type": "java",
-      "name": "DemoApplication",
-      "request": "launch",
-      "mainClass": "com.example.my_app.DemoApplication"
-    },
-    {
-      "type": "java",
-      "name": "Application",
-      "request": "launch",
-      "mainClass": "Application",
-      "projectName": "javas-toughest-bugs-4493257_5cd2dc70"
-    },
-    {
-      "type": "java",
-      "name": "Application",
-      "request": "launch",
-      "mainClass": "com.example.my_app.Application"
-    },
-    {
-      "type": "java",
-      "name": "Spring Boot App",
-      "request": "launch",
-      "mainClass": "com.example.demo.Application",
-      "args": ""
-    },
-    {
-      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
