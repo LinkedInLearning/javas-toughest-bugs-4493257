@@ -1,4 +1,4 @@
-package com.example.my_app;
+package com.chfour_videotwo_beginning.myapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

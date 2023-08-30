@@ -1,4 +1,4 @@
-package com.example.my_app;
+package com.chfour_videotwo_beginning.myapp;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

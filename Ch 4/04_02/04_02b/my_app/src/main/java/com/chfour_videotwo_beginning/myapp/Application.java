@@ -1,4 +1,4 @@
-package com.example.my_app;
+package com.chfour_videotwo_beginning.myapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
