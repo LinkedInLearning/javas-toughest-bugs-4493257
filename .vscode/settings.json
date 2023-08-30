@@ -20,5 +20,9 @@
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.sourcePaths": [
+    "Ch 4/04_01/04_01e/my_app/src/main/java/com/example/my_app"
+  ]
 }
