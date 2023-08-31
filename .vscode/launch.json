@@ -9,6 +9,13 @@
       "name": "StockTradingSystem",
       "request": "launch",
       "mainClass": "StockTradingSystem",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "StockTradingSystem",
+      "request": "launch",
+      "mainClass": "StockTradingSystem",
       "projectName": "javas-toughest-bugs-4493257_5cd2dc70"
     },
     {
