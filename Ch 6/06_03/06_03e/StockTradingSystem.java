@@ -10,6 +10,8 @@ public class StockTradingSystem {
         boolean tradeComplete = false;
         while (!tradeComplete) {
           // Process trade data
+          System.out.println("Processing trade " +
+              Thread.currentThread().getName());
           tradeComplete = !Thread.currentThread().getName().contains("2");
         }
       });
