@@ -5,7 +5,7 @@ import java.util.Random;
 public class EventTicketBookingSystem {
   private int availableTickets = 100;
 
-  public void bookTicket(int numTickets) {
+  public synchronized void bookTicket(int numTickets) {
     if (numTickets <= availableTickets) {
       System.out.println(Thread.currentThread().getName() +
           " booking " + numTickets + " tickets with available " +
@@ -22,7 +22,7 @@ public class EventTicketBookingSystem {
     }
   }
 
-  public int getAvailableTickets() {
+  public synchronized int getAvailableTickets() {
     System.out.println(Thread.currentThread().getName() +
         " current available: " + availableTickets);
     return availableTickets;
