@@ -36,11 +36,11 @@ public class User {
     this.name = name;
   }
 
-  public String getEmail() {
+  public String getEmailAddress() {
     return emailAddress;
   }
 
-  public void setEmail(String email) {
+  public void setEmailAddress(String email) {
     this.emailAddress = email;
   }
 
