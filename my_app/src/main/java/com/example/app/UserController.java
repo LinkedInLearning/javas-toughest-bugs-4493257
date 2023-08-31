@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -16,7 +18,9 @@ public class UserController {
   private RestTemplate restTemplate;
 
   @GetMapping("/fetch")
-  public User[] fetchUsers() {
-    return restTemplate.getForObject(API_URL, User[].class);
+  public User[] fetchUsers() throws Exception {
+    String users = restTemplate.getForObject(API_URL, String.class);
+    ObjectMapper objectMapper = new ObjectMapper();
+    return objectMapper.readValue(users, User[].class);
   }
 }
