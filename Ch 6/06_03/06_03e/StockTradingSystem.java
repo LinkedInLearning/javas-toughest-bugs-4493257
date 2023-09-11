@@ -5,6 +5,8 @@ public class StockTradingSystem {
   public static void main(String[] args) {
     ExecutorService threadPool = Executors.newFixedThreadPool(5);
 
+    long startTime = System.currentTimeMillis();
+
     for (int i = 0; i < 10; i++) {
       threadPool.submit(() -> {
         boolean tradeComplete = false;
@@ -12,7 +14,14 @@ public class StockTradingSystem {
           // Process trade data
           System.out.println("Processing trade " +
               Thread.currentThread().getName());
-          tradeComplete = !Thread.currentThread().getName().contains("2");
+          tradeComplete = true;
+        
+          long currentTime = System.currentTimeMillis();
+          if (currentTime - startTime > 10000) {
+            System.out.println(Thread.currentThread().getName() + 
+            " exceeded timeout. Exiting...");
+            break;
+          }
         }
       });
     }
