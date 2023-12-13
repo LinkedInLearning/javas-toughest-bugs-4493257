@@ -35,7 +35,7 @@ Software Developer
 Check out my other courses on [LinkedIn Learning][URL-instructor-home].
 
 [URL-lil-course]: https://www.linkedin.com/learning/java-s-toughest-bugs
-[URL-lil-thumbnail]: https://media.licdn.com/dms/image/D560DAQH_ZrUe7XJSPw/learning-public-crop_675_1200/0/1699910799229?e=2147483647&v=beta&t=va7h5MPTuJIrUSh8kLFTmN_xXM8CChDaaYVGpDNnHhk
+[URL-lil-thumbnail]: https://media.licdn.com/dms/image/D4D0DAQHo50vtW8df1g/learning-public-crop_675_1200/0/1701460214547?e=2147483647&v=beta&t=N6GE0Hkkb0CMKhnD6C_Qm0R6-DWw8jvX_gkYzW-ZviE
 [URL-instructor-home]: https://www.linkedin.com/learning/instructors/kathryn-hodge
 
 
