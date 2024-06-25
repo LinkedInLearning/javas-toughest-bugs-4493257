@@ -8,13 +8,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class User {
 
-  @JsonProperty("userId")
+  @JsonProperty("id")
   private int id;
 
   @JsonProperty("name")
   private String name;
 
-  @JsonProperty("emailAddress")
+  @JsonProperty("email")
   private String emailAddress;
 
   @JsonProperty("username")
